@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/codingwithadi/multiflexapp.git/static/css/main.d193e8ce.chunk.css",
+    "main.js": "/codingwithadi/multiflexapp.git/static/js/main.b61c2328.chunk.js",
+    "main.js.map": "/codingwithadi/multiflexapp.git/static/js/main.b61c2328.chunk.js.map",
+    "runtime-main.js": "/codingwithadi/multiflexapp.git/static/js/runtime-main.088ebf27.js",
+    "runtime-main.js.map": "/codingwithadi/multiflexapp.git/static/js/runtime-main.088ebf27.js.map",
+    "static/js/2.ee0e5d95.chunk.js": "/codingwithadi/multiflexapp.git/static/js/2.ee0e5d95.chunk.js",
+    "static/js/2.ee0e5d95.chunk.js.map": "/codingwithadi/multiflexapp.git/static/js/2.ee0e5d95.chunk.js.map",
+    "index.html": "/codingwithadi/multiflexapp.git/index.html",
+    "static/css/main.d193e8ce.chunk.css.map": "/codingwithadi/multiflexapp.git/static/css/main.d193e8ce.chunk.css.map",
+    "static/js/2.ee0e5d95.chunk.js.LICENSE.txt": "/codingwithadi/multiflexapp.git/static/js/2.ee0e5d95.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.088ebf27.js",
+    "static/js/2.ee0e5d95.chunk.js",
+    "static/css/main.d193e8ce.chunk.css",
+    "static/js/main.b61c2328.chunk.js"
+  ]
+}
