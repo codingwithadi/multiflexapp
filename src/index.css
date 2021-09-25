@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  margin : 0px;
+  padding : 0px;
+}
+.heading{
+  color : rgba(98, 96, 96, 0.966);
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  
+  background-color: lightcyan;
+  height : 80px;
+  padding : 20px;
+}
+body{
+  background-color: #fff;
+}
+
+.card-img{
+  width : 100%;
+  height: 235px;
+  border-top-left-radius : 12px;
+  border-bottom-right-radius: 12px;
+}
+.card{
+  margin : 6%;
+  /* this is nothing but a effect when hover it */
+  transition:all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color : #fff;
+  width : 21.25%;
+  height : auto;
+  border-radius : 12px;
+  box-shadow : 0px 13px 10px -7px rgba(0,0,0,0.1);
+  float : left;
+
+}
+.card-info{
+  color: rgba(98, 96, 96, 0.966);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding : 10px;
+}
+.card:hover{
+  box-shadow: 0px 30px 18px -8px rgba(0,0,0,0.1);
+  transform : scale(1.05,1.05);
+}
+button{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  background-color: #0f79af;
+  color :#fff;
+  padding : 5px;
+  border-radius : 12px;
+  text-align: center;
+  cursor : pointer;
+  border : none;
+}
+/* button:hover{
+  border:1px solid black;
+  cursor : pointer;
+  background-color: rgba(128, 255, 255, 0.911);
+  text-transform: uppercase;
+} */
+
+@media(max-width:768px){
+  .card{
+    float : none;
+    margin : 5%;
+    width : 90%;
+  }
+}
+@media(max-width:864px){
+  .card{
+    float : none;
+    margin : 5%;
+    width : 90%;
+  }
+}
+@media(max-width:768px){
+  .heading{
+    width : auto;
+    height:auto;
+  }
+}
